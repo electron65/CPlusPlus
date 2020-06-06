@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-class human {
+class human { //parent class
 public:
 	std::string firstHuman = "neanderthal";
 	void voice() {
@@ -9,7 +9,7 @@ public:
 	}
 };
 
-class adam : public human {
+class adam : public human { //child class
 public:
 	std::string man = "Hello, I am man.";
 };
