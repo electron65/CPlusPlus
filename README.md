@@ -1,2 +1,2 @@
 # CPlusPlus
-C++ examples for use
+C++ Examples for use
